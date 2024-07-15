@@ -207,7 +207,7 @@ header .navi-bar > li > a{
         text-transform: uppercase;
     }
 .testimonies .quote1{
-        background-image: url(images/testimonial-1.jpeg);
+        background-image: url(/images/testimonial-1.jpeg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
@@ -215,7 +215,7 @@ header .navi-bar > li > a{
         margin-bottom: 1rem;
     }
 .testimonies .quote2{
-        background-image: url(images/testimonial-2.jpeg);
+        background-image: url(/images/testimonial-2.jpeg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center 0%;
@@ -223,7 +223,7 @@ header .navi-bar > li > a{
         margin-bottom: 2%;
     }
 .testimonies .quote3{
-        background-image: url(images/testimonial-3.jpeg);
+        background-image: url(/images/testimonial-3.jpeg);
         background-size: 100%;
         background-position: center 0;
         background-repeat: no-repeat;
