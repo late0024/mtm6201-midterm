@@ -58,13 +58,13 @@ body {
     font-weight: 400;
     font-style: normal;
   }
-  
-  .dark-overlay {
+}
+
+.dark-overlay {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     width: 100%;
     height: 100%;
-}
 }
 
 /* attribute for controlling the width of the containers */
@@ -77,29 +77,30 @@ body {
 /* header section */
 header {
     background-color:#000000;
-    
-    .navbar{
-        display: flex;
-    }
+}
 
-    .navbar > li {
-        margin: 1rem;
-        list-style-type: none;
-    }
 
-    .navbar > li > a{
-        color: #fff;
-        text-decoration: none;      
-        font-family: "Lato", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        justify-content:center;
-  
-    }
-    
+header .navi-bar{
+    display: flex;  
+}
 
+
+header .navi-bar > li {
+    margin: 1rem;
+    list-style-type: none;
+}
+
+header .navi-bar > li > a{
+    color: #fff;
+    text-decoration: none;      
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    justify-content:center;
 
 }
+
+
 
 .coffee-intro{
    /* flexbox portion of the container */
@@ -108,33 +109,31 @@ header {
     justify-content: center;
     align-items: center;
     /* background image part of the container */
-    background-image: url(images/hero-background.jpg);
+    background-image: url(/images/hero-background.jpg);
     height: 60vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
     background-color: rgba(0, 0, 0, 0.5);
-
-    p{
-        color: #fff;
-        font-size: 16px;
-    }
-    h1{
-        font-size: 32px;
-        font-family: "Lato", sans-serif;
-        font-weight: 900;
-        font-style: normal; 
-    }
-    button{
-       background-color: #fff; 
-       text-transform: uppercase;
-       padding: 3%;
-       display: block;
-    }
+}
+.coffee-intro p{
+    color: #fff;
+    font-size: 16px;
+}
+.coffee-intro h1{
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+}
+.coffee-intro button{
+   background-color: #fff; 
+   text-transform: uppercase;
+   padding: 3%;
+   display: block;
 }
 
-.experience{
-    .image-container{
+.experience .image-container{
         display: grid;
         grid-template-areas: 
         "box1 box1"
@@ -142,15 +141,14 @@ header {
         "box2 box3"
         "box4 box5"
         ;
-        grid-template-columns: repeat(1fr,2);
+        grid-template-columns: auto auto;
     }
-}
 
 .offers{
     text-align: center;
-    img{
-        width: 50%;
-    }
+}
+.offers img{
+    width: 50%;
 }
 
 .menu{
@@ -159,29 +157,30 @@ header {
     text-align: center;
     margin: 1rem;
     height: 80vh;
-    background-image: url(images/coffee-shop.jpeg);
+    background-image: url(/images/coffee-shop.jpeg);
     background-size: cover;
-    h2{
-        color:#fff;
-        font-weight: 600;
-        margin-bottom: 2rem;
-    }
+}
 
-    h3{
-        margin-top: 4rem;
-    }
+.menu h2{
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
 
-    button {
-        margin-bottom: 1rem;
-        padding:0.9rem;
-        font-weight: 700;
-    }
-    
-    .black-btn {
-        background-color: transparent;
-        color: #fff;
-        border-color: #fff;
-    }
+.menu h3{
+    margin-top: 4rem;
+}
+
+.menu button {
+    margin-bottom: 1rem;
+    padding:0.9rem;
+    font-weight: 700;
+}
+
+.menu .black-btn {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
 }
 
 .testimonies{
@@ -189,47 +188,48 @@ header {
     padding-top: 5rem;
     padding-bottom: 5rem;
     margin-bottom: 0;
-    h2{
+}
+.testimonies h2{
         color: #fff;
     }
-    q {
+.testimonies q {
         color:#fff;
     }
-    cite{
+.testimonies cite{
         color: #fff;
     }
-    .quote-container {
+.testimonies .quote-container{
         display: flex;
         flex-direction: column;
         margin: auto;
         width: 75%;
         justify-content: end;
+        text-transform: uppercase;
     }
-    .quote1{
-        background-image: url(images/testimonial-1.jpeg);
+.testimonies .quote1{
+        background-image: url(/images/testimonial-1.jpeg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
-        height: 60vh;
+        height: 65vh;
         margin-bottom: 1rem;
     }
-    .quote2{
-        background-image: url(images/testimonial-2.jpeg);
+.testimonies .quote2{
+        background-image: url(/images/testimonial-2.jpeg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center 0%;
-        height: 60vh;
+        height: 65vh;
         margin-bottom: 2%;
     }
-    .quote3{
-        background-image: url(images/testimonial-3.jpeg);
+.testimonies .quote3{
+        background-image: url(/images/testimonial-3.jpeg);
         background-size: 100%;
-        background-position: center center;
+        background-position: center 0;
         background-repeat: no-repeat;
-        height: 60vh;
+        height: 65vh;
         margin-bottom: 2%;
     }
-}
 
 footer {    
     background-color: #000000;
